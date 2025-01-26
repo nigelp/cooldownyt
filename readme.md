@@ -1,6 +1,8 @@
 # ❄️ Cooldown YT
 
-**A powerful Python script for downloading high-quality YouTube videos and playlists with ease! 🎥⚡**
+
+
+**A powerful Python script and GUI for downloading high-quality YouTube videos, playlists and audio with ease! 🎥⚡** Special thanks to Pierre-Henry Soria and his project at pH-7/Download-Simply-Videos-From-YouTube.
 
 This python program not only downloads YouTube content in the highest available quality but also handles multiple formats, subtitles, and thumbnails efficiently. Perfect for content creators and educational purposes! 
 
@@ -53,10 +55,16 @@ cd frontend && npm run dev
 ```console
 python server.py
 ```
+Note: For ease of use you can use Notepad or your fave editor to create and use a .bat file to give you single click access:
+
+@echo off
+start cmd /k "cd [yourinstalldirectory]:\downyt\frontend && npm run dev"
+timeout /t 5
+start cmd /k "cd [yourinstalldirectory]:\downyt && python server.py"
 
 **Features:**
 - ✨ Support for both single videos and playlists
-- 🎥 High-quality video and audio downloads
+- 🎥 High-quality video and optional separate audio downloads
 - 📁 Organized folder structure
 - 🔄 Format conversion to MP4
 - 🎵 MP3 audio extraction option
