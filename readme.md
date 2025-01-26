@@ -58,10 +58,12 @@ python server.py
 ```
 Note: For ease of use you can use Notepad or your fave editor to create and use a .bat file to give you single click access:
 
+```
 @echo off
 start cmd /k "cd [yourinstalldirectory]:\downyt\frontend && npm run dev"
 timeout /t 5
 start cmd /k "cd [yourinstalldirectory]:\downyt && python server.py"
+```
 
 **Features:**
 - ✨ Support for both single videos and playlists
