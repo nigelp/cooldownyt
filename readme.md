@@ -60,9 +60,11 @@ Note: For ease of use you can use Notepad or your fave editor to create and use 
 
 ```
 @echo off
-start cmd /k "cd [yourinstalldirectory]:\downyt\frontend && npm run dev"
+start cmd /k "cd [drive]:\[your_install_folder]\frontend && npm run dev"
 timeout /t 5
-start cmd /k "cd [yourinstalldirectory]:\downyt && python server.py"
+start cmd /k "cd [drive]:\[your_install_folder] && python server.py"
+
+Example: D:\download\frontend...
 ```
 
 **Features:**
