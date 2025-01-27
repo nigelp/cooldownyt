@@ -64,7 +64,7 @@ start cmd /k "cd [drive]:\[your_install_folder]\frontend && npm run dev"
 timeout /t 5
 start cmd /k "cd [drive]:\[your_install_folder] && python server.py"
 
-Example: D:\download\frontend...
+Example: D:\cooldown\frontend...
 ```
 
 **Features:**
