@@ -1,6 +1,6 @@
 # ❄️ Cooldown YT
 
-<img src="https://github.com/nigelp/cooldownyt/blob/main/cooldownYT.jpg" alt="Screengrab" width="300" height="200">
+<img src="https://github.com/nigelp/cooldownyt/blob/main/cooldownYT.jpg" alt="Screengrab" width="600" height="500">
 
 
 **A powerful Python script and GUI for downloading high-quality YouTube videos, playlists and audio with ease! 🎥⚡** Special thanks to Pierre-Henry Soria and his project at pH-7/Download-Simply-Videos-From-YouTube.
